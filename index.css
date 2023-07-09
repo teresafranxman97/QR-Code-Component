@@ -10,11 +10,12 @@ body {
 	align-items: center;
 }
 
-main {
+figure {
 	background: white;
 	width: 17rem;
 	border-radius: 10px;
 	text-align: center;
+	margin: 0;
 }
 
 .image-container {
@@ -27,12 +28,21 @@ img {
 }
 
 figcaption {
-	font-size: 15px;
 	font-weight: 700;
 	padding: 10px;
 }
 
-span {
+h1 {
+	font-size: 20px;
+    margin: 0;
+    font-weight: 700;
+}
+
+p {
 	font-weight: 300;
-	color: hsl(220, 15%, 55%);
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
 }
